@@ -6,29 +6,33 @@
       width="125"
     ></canvas>
     <div class="stakes-progress-data">
-      <div class="stakes-progress-data-progress js-stakes-progress-data-progress <%= if assigns[:extra_class], do: @extra_class %>">
+      <div class="stakes-progress-data-progress js-stakes-progress-data-progress <%= if assigns[:extra_class], do: @extra_class %>"
+        stakes-progress
+      >
         0
       </div>
-      <div class="stakes-progress-data-total js-stakes-progress-data-total <%= if assigns[:extra_class], do: @extra_class %>">
+      <div class="stakes-progress-data-total js-stakes-progress-data-total <%= if assigns[:extra_class], do: @extra_class %>"
+        stakes-total
+      >
         0
       </div>
     </div>
   </div>
   <div class="stakes-progress-info">
     <h2 class="stakes-progress-info-title"><%= gettext("Pool") %></h2>
-    <p class="stakes-progress-info-value link-color <%= if assigns[:extra_class], do: @extra_class %>">
+    <p class="stakes-progress-info-value link-color <%= if assigns[:extra_class], do: @extra_class %>" stakes-address>
       0x18Bea833D503341C529a788c82909337e552a44e
     </p>
   </div>
   <div class="stakes-progress-info">
     <h2 class="stakes-progress-info-title"><%= gettext("Stakes Ratio") %></h2>
-    <p class="stakes-progress-info-value <%= if assigns[:extra_class], do: @extra_class %>">
+    <p class="stakes-progress-info-value <%= if assigns[:extra_class], do: @extra_class %>" stakes-ratio>
       5%
     </p>
   </div>
   <div class="stakes-progress-info">
     <h2 class="stakes-progress-info-title"><%= gettext("Delegators") %></h2>
-    <p class="stakes-progress-info-value link-color <%= if assigns[:extra_class], do: @extra_class %>">
+    <p class="stakes-progress-info-value link-color <%= if assigns[:extra_class], do: @extra_class %>" stakes-delegators>
       10
     </p>
   </div>
