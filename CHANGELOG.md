@@ -52,6 +52,7 @@
 - [#2167](https://github.com/poanetwork/blockscout/pull/2168) - feat: document eth rpc api mimicking endpoints
 - [#2198](https://github.com/poanetwork/blockscout/pull/2198) - reduce transaction status and error constraint
 - [#2204](https://github.com/poanetwork/blockscout/pull/2204) - fix large contract verification
+- [#2225](https://github.com/poanetwork/blockscout/pull/2225) - fix metadata decoding in Solidity 0.5.9 smart contract verification
 
 ### Chore
 - [#2127](https://github.com/poanetwork/blockscout/pull/2127) - use previouse chromedriver version
