@@ -1740,7 +1740,6 @@ msgstr ""
 msgid "here."
 msgstr ""
 
-<<<<<<< HEAD
 #: lib/block_scout_web/templates/address_transaction/index.html.eex:9
 msgid "Download all transactions as csv"
 msgstr ""
