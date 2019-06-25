@@ -13,18 +13,18 @@
           <div class="modal-body">
             <form>
               <div class="input-group form-group">
-                <input type="text" class="form-control n-b-r" placeholder='<%= gettext("Amount") %>'>
+                <input type="text" class="form-control n-b-r" placeholder='<%= gettext("Amount") %>' move-amount>
                 <div class="input-group-prepend last">
                   <div class="input-group-text">POA20</div>
                 </div>
               </div>
-              <p class="form-p m-b-0">You Staked: <span class="text-dark" staked></span></p>
+              <p class="form-p m-b-0">You Staked: <span class="text-dark" user-staked></span></p>
               <div class="input-group form-group">
-                <select pool-select>
+                <select pool-select class="form-control">
                   <option selected disabled><%= gettext("Choose Pool") %></option>
                 </select>
               </div>
-              <p class="form-p">Max Amount to Move: <span class="text-dark">2000 POA20</span></p>
+              <p class="form-p">Max Amount to Move: <span class="text-dark" max-allowed></span></p>
               <div class="form-buttons">
                 <%= render BlockScoutWeb.StakesView, "_stakes_btn_stake.html", text: gettext("Move Stake"), extra_class: "full-width", disabled: true %>
               </div>
