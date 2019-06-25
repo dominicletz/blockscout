@@ -12,7 +12,7 @@
               <p class="form-p">Your ordered amount</p>
               <p class="form-p"><span class="text-dark" ordered-amount></span></p>
               <div class="form-buttons">
-                <%= render BlockScoutWeb.StakesView, "_stakes_btn_withdraw.html", text: gettext("Claim the Amount"), extra_class: "full-width" %>
+                <%= render BlockScoutWeb.StakesView, "_stakes_btn_withdraw.html", text: gettext("Claim the Amount"), extra_class: "full-width btn-add-full" %>
               </div>
             </form>
           </div>
