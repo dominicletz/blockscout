@@ -31,6 +31,8 @@ import './pages/chain'
 import './pages/pending_transactions'
 import './pages/transaction'
 import './pages/transactions'
+import './pages/favorites'
+import './pages/network-search'
 
 import './pages/admin/tasks.js'
 
@@ -56,3 +58,4 @@ import './lib/tooltip'
 import './lib/modals'
 import './lib/try_api'
 import './lib/card_tabs'
+import './lib/network_selector'
