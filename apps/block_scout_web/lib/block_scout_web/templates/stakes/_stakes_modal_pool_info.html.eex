@@ -1,4 +1,4 @@
-<div class="modal fade" id="validatorInfoModal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal fade" id="poolInfoModal" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-validator-info" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -24,7 +24,7 @@
         <%=
           render BlockScoutWeb.StakesView,
           "_stakes_validator_info_item.html",
-          title: "Delegators Staked Amount",
+          title: "Delegator's Staked Amount",
           value: "3200",
           name: "delegators-staked"
         %>
@@ -40,7 +40,7 @@
           "_stakes_validator_info_item.html",
           title: "Reward Percent of the Pool",
           value: "15%",
-          name: "stakes-ratio"
+          name: "reward-percent"
         %>
         <%=
           render BlockScoutWeb.StakesView,
@@ -60,7 +60,8 @@
           render BlockScoutWeb.StakesView,
           "_stakes_validator_info_item.html",
           title: "The Block Number and Approximate Date When the  Address Will be Unbanned",
-          name: "unban-date"
+          name: "unban-date",
+          value: "-"
         %>
         <%=
           render BlockScoutWeb.StakesView,
