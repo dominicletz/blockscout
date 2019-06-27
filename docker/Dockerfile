@@ -22,7 +22,7 @@ ADD . .
 ARG COIN
 RUN if [ "$COIN" != "" ]; then sed -i s/"POA"/"${COIN}"/g apps/block_scout_web/priv/gettext/en/LC_MESSAGES/default.po; fi
 
-# Run forderground build and phoenix digest
+# Run foreground build and phoenix digest
 RUN mix compile
 
 # Add blockscout npm deps
